@@ -1,0 +1,44 @@
+<ion-header>
+ 
+  <ion-navbar color="dark">
+    <ion-title>Booking</ion-title>
+  </ion-navbar>
+ 
+</ion-header>
+ 
+<ion-content>
+ 
+    <ion-card>
+        <img class="header" src="http://theaustonian.com/uploads/full_photos/Austonian_Kitchen_20160127.jpg"/> 
+        <div class="card-title-container">
+            <p class="card-title"></p>
+        </div>
+    </ion-card>
+ 
+    <ion-list>
+ 
+        <ion-item>
+            <strong>Check In:</strong> 3 pm
+        </ion-item>
+ 
+        <ion-item>
+            <strong>Check Out:</strong> 11 am
+        </ion-item>
+ 
+        <ion-item>
+            <strong>Beds:</strong> 1
+        </ion-item>
+ 
+        <ion-item>
+            <strong>Guests:</strong> 2
+        </ion-item>
+ 
+        <ion-item>
+            <strong>Per Night:</strong> $150
+        </ion-item>
+ 
+    </ion-list>
+ 
+    <button (click)="book()" full ion-button color="light">Book Now</button>
+ 
+</ion-content>

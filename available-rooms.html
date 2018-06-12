@@ -1,0 +1,41 @@
+<ion-header>
+ 
+  <ion-navbar color="dark">
+    <ion-title>Available Rooms</ion-title>
+  </ion-navbar>
+ 
+</ion-header>
+ 
+ 
+<ion-content>
+ 
+ 
+   <ion-card tappable (click)="bookRoom()" >
+      <img class="header" src="https://palacestation.sclv.com/~/media/Images/Page-Background-Images/Palace/Hotel/PS_Hotel_KingRoom_new.jpg?h=630&la=en&w=1080"/> 
+      <div class="card-title-container">
+        <p class="card-title">Standard</p>
+        <p class="room-description" style="color:white"><ion-icon name="cloud"></ion-icon> 1 <ion-icon name="cash"></ion-icon> 170 <ion-icon name="people"></ion-icon> 2</p>
+      </div>
+  </ion-card>
+  <ion-card tappable (click)="bookRoom()" >
+      <img class="header" src="http://theaustonian.com/uploads/full_photos/Austonian_Kitchen_20160127.jpg"/> 
+      <div class="card-title-container">
+        <p class="card-title">Studio</p>
+        <p class="room-description" style="color:white"><ion-icon name="cloud"></ion-icon> 2 <ion-icon name="cash"></ion-icon> 240 <ion-icon name="people"></ion-icon> 2</p>
+      </div>
+  </ion-card>
+  <ion-card tappable (click)="bookRoom()" >
+      <img class="header" src="https://taj.tajhotels.com/content/dam/luxury/hotels/Taj-Exotica-Maldives/images/3x2/ROOMS_&_SUITES_28863918-H1-Deluxe_Lagoon_Villas_with_Pool_bedroom(9999_x_6666)_3x2.jpg"/> 
+      <div class="card-title-container">
+        <p class="card-title">Villa</p>
+        <p class="room-description" style="color:white"><ion-icon name="cloud"></ion-icon> 3 <ion-icon name="cash"></ion-icon> 300 <ion-icon name="people"></ion-icon> 3</p>
+      </div>
+  </ion-card>
+  <ion-card tappable (click)="bookRoom()" >
+      <img class="header" src="https://therealdeal.com/la/wp-content/uploads/2015/11/LA-penthouse-Genton.jpg"/> 
+      <div class="card-title-container">
+        <p class="card-title">Penthouse</p>
+        <p class="room-description" style="color:white"><ion-icon name="cloud"></ion-icon> 4 <ion-icon name="cash"></ion-icon> 350 <ion-icon name="people"></ion-icon> 4</p>
+      </div>
+  </ion-card>
+</ion-content>
